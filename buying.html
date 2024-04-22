@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>
+        Buying and Shipping
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <p>Waachey's House of PefPef</p>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+        </ul>   
+    </div>
+    <div>
+        <h1 style="text-align: center;">Please Fill The Form Below to Complete your Order</h1>
+    </div>
+
+    <form>
+        <div>
+            <p>Name*</p>
+            <div class="name-input">
+                <div>
+                    <input type="text" name="fname"> 
+                    <label for="firstname" class="label-text">First Name:</label>
+                </div>
+                <div>
+                    <input type="text" name="lname">
+                    <label for="lastanme" class="label-text">Last Name:</label>
+                </div>
+            </div>
+        </div><br>
+        <div>
+            <p>Address*</p>
+            <div class="street-add">
+                <input type="text" id="strtadr" name="streetaddress">
+                <label for="strtadr">Street Address:</label>   
+            </div>
+            <div class="grid-container">
+                <div class="grid-items">
+                    <input type="text" id="city" name="city">
+                    <label for="city">City:</label>
+                </div>
+                <div class="grid-items">
+                    <input type="text" id="state" name="state">
+                    <label for="state">State:</label>
+                </div>
+                <div class="grid-items">
+                    <input type="text" id="zip" name="zip">
+                    <label for="zip">Zip:</label>
+                </div>
+                <div class="grid-items">
+                    <select id="country" name="country">
+                        <option value="gha">Ghana</option>
+                        <option value="nig">Nigeria</option>
+                        <option value="brk">Burkina Faso</option>
+                        <option value="togo">Togo</option>
+                        <option value="cdi">Cote d'Ivoire</option>
+                    </select>
+                    <label for="country">Country:</label>
+                </div>
+            </div>
+        </div><br>
+        <p class="email-p">E-mail*</p>
+        <div class="email">
+            <input type="text" id="mail" name="mail" placeholder="example@gmail.com">
+            <input type="text" id="mail" name="mail" placeholder="example@gmail.com">
+            <label for="mail">Confirm E-mail:</label>
+        </div><br>
+        <div >
+            <p>Phone Number*</p>
+            <div class="phone-num">
+                <div>
+                    <select id="areacode" name="areacode">
+                        <option value="gha">Gh +233</option>
+                        <option value="nig">Nig +234</option>
+                        <option value="brk">Bur +237</option>
+                        <option value="togo">Tog +232</option>
+                        <option value="cdi">CIV +235</option>
+                    </select>
+                    <label for="areacode">Area Code:</label>
+                </div>
+                <div>
+                    <input type="text" id="number" name="number">
+                    <label for="number" class="num-h">Number:</label>
+                </div>
+
+            </div>
+        </div><br>
+        <div>
+            <p>Will You Like To Receive Updates on Our Features?*</p>
+           <div class="options">
+            <input type="radio" id="update" name="update">
+            <label for="update">Yes</label>
+           </div> 
+           <div class="options">
+            <input type="radio" id="update" name="update">
+            <label for="update">No</label>
+           </div>  
+        </div><br>
+        <div>
+            <p>Product Name and Quantity*</p>
+            <input type="text" id="prdct" name="product">
+            <label for="prdct">Name of Product:</label>
+            <input type="text" id="qntty" name="quantity">
+            <label for="qntty">Number of Product:</label>
+        </div>
+        <div>
+            <input type="submit" value="SUBMIT">
+        </div>
+
+    </form>
+    
+
+
+</body>
+
+
+</html>
